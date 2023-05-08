@@ -7,14 +7,11 @@ let anim;
 
 
 
-// function preload() {
-//   anim = loadAnimation("P3/images/brick.png",
-//     "P3/images/brick2.png", "P3/images/brick3.png", "P3/images/brick4.png",);
-// }
+
 
 function preload() {
   myFont = loadFont("PressStart2P-Regular.ttf");
-  // anim = loadAnimation("/images/brick.png", "/images/brick2.png", "/images/brick3.png", "/images/brick4.png",);
+  anim = loadAnimation("/images/brick.png", "/images/brick2.png", "/images/brick3.png", "/images/brick4.png",);
 }
 
 function setup() {
