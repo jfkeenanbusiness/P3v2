@@ -3,7 +3,7 @@ let clouds;
 let score;
 let mode = 1;
 let high = 0;
-let anim;
+// let anim;
 
 
 
@@ -11,7 +11,7 @@ let anim;
 
 function preload() {
   myFont = loadFont("PressStart2P-Regular.ttf");
-  anim = loadAnimation("/images/brick.png", "/images/brick2.png", "/images/brick3.png", "/images/brick4.png",);
+  // anim = loadAnimation("/images/brick.png", "/images/brick2.png", "/images/brick3.png", "/images/brick4.png",);
 }
 
 function setup() {
@@ -20,7 +20,7 @@ function setup() {
 
   player = createSprite(10, 10, 10, 10);
 
-  clouds.addAnimation("default", anim);
+  // clouds.addAnimation("default", anim);
 
   
 }
