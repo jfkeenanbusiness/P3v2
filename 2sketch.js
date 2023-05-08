@@ -14,7 +14,7 @@ let anim;
 
 function preload() {
   myFont = loadFont("PressStart2P-Regular.ttf");
-  anim = loadAnimation("/images/brick.png", "/images/brick2.png", "/images/brick3.png", "/images/brick4.png",);
+  // anim = loadAnimation("/images/brick.png", "/images/brick2.png", "/images/brick3.png", "/images/brick4.png",);
 }
 
 function setup() {
