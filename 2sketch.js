@@ -96,8 +96,10 @@ if (score < high) {
 
     fill(0);
     noStroke();
-    textSize(80);
+    textSize(30);
     textAlign(CENTER, CENTER);
+    text("Avoid the white squares", width/2, height/1.3);
+    textSize(60);
     text("Click to Start", width/2, height/2);
     textFont("PressStart2P-Regular")
 
